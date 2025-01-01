@@ -47,3 +47,63 @@ The admin dashboard provides store owners with powerful tools to manage their bu
 ---
 ![Screenshot 2025-01-01 at 21-46-35 React App](https://github.com/user-attachments/assets/d4e53645-6f2e-4bff-9131-aef3c586c429)
 ---
+
+
+## **Core Functionalities in Detail (Incomplete)**
+
+### **Orders Page**
+- Review order history and details.
+- Mark orders as actioned with timestamps.
+- Track completed and pending orders.
+
+### **Catalogue Page**
+- Manage all products with ease:
+  - Edit product details.
+  - Update stock levels automatically as sales are made.
+  - Activate or deactivate products for public display.
+  - Link related products to enhance customer experience.
+  - Apply sales or discounts.
+- Filter and search products efficiently.
+
+### **Create Page**
+- Add new products to the catalogue.
+- Set pricing, stock levels, and product visibility.
+- Link products to categories or related items.
+
+### **Analytics Page**
+- View total sales by period.
+- Analyze product performance with detailed metrics.
+- Track views and customer engagement over time.
+
+### **Users Page**
+- Manage admin users and permissions.
+- Approve or deactivate dashboard access requests.
+
+### **Brand Page**
+- Update brand-related information, including name and links displayed on the website.
+
+### **Customer Service Page**
+- Configure policies for returns, shipping, and other customer services.
+- Manage delivery options integrated with Stripe.
+
+### **Home Page**
+- Customize the homepage with engaging content and imagery.
+
+### **Product Categories**
+- Create, activate, or deactivate product categories.
+- Automatically generate category-specific pages for public display.
+- Assign products to categories for better organization.
+
+### **Email Templates**
+- Integrate Brevo API for email automation:
+  - Order confirmations.
+  - Newsletter subscriptions.
+  - Customer inquiries.
+
+---
+
+## **Third-Party Integrations**
+- **Stripe**: Primary payment provider with plans for additional providers in future updates.
+- **Brevo (formerly Sendinblue)**: Email campaign management for order confirmations, newsletters, and customer communication.
+
+---
