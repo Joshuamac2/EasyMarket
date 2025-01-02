@@ -1,0 +1,99 @@
+.order-summary {
+  width: 100%;
+}
+
+.order-confirmation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.check-icon {
+  font-size: 44px;
+  color: white;
+  background-color: green;
+  border-radius: 30px;
+  margin-right: 10px;
+  padding: 2px 7px;
+}
+
+.order-no {
+  font-size: 18px;
+  color: #666;
+}
+
+.thank-you {
+  font-size: 23px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.contact-info,
+.address-info,
+.shipping-info {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.order-updates {
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.order-updates-title {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.help-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.help-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .order-summary {
+    padding: 10px;
+  }
+
+  .order-confirmation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .check-icon {
+    margin-bottom: 10px;
+  }
+
+  .order-no,
+  .thank-you {
+    text-align: center;
+  }
+}

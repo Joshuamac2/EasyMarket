@@ -1,0 +1,60 @@
+.order-header {
+  font-size: 20px;
+  color: grey;
+}
+
+.order-count {
+  color: white;
+  background-color: grey;
+  border-radius: 15px;
+  padding: 2px 7px;
+  margin-left: 5px;
+}
+
+.date-display {
+  float: right;
+}
+
+.product-image {
+  width: 125px;
+  height: 125px;
+}
+
+@media (max-width: 768px) {
+  .order-header {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .date-display {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .continue-shopping-button {
+    display: block;
+    width: calc(100% - 40px);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .product-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .order-items table {
+    width: 100%;
+  }
+
+  .order-items .MuiTableCell-root {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

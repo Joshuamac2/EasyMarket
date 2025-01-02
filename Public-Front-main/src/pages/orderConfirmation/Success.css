@@ -1,0 +1,44 @@
+.success {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.order-summary {
+  padding: 30px;
+  margin-right: 20px;
+}
+
+.order-items {
+  width: 100%;
+}
+
+@media (max-width: 968px) {
+  .success {
+    flex-direction: column;
+  }
+}
+
+.error-message {
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 250px;
+  border: 1px solid #e0e0e0;
+  background-color: #f8d7da;
+  color: black;
+  border-radius: 8px;
+}
+
+.error-message p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-link {
+  font-size: 20px;
+  color: #0056b3;
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #e7e7e5;
+  border-left: none;
+  border-right: none;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 20px;
+  padding-left: 55px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.line {
+  width: 2px;
+  background-color: #e7e7e5;
+}

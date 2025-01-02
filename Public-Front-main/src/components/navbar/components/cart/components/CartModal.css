@@ -1,0 +1,135 @@
+.cart-card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 1rem;
+  min-width: 250px;
+}
+
+.card-img-left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-left {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+  min-width: 200px;
+}
+
+.card-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.card-text {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 10px;
+}
+
+.button-add-decrease {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid rgb(220, 213, 213);
+  flex: 1;
+  justify-content: space-between;
+  min-width: 100px;
+  background-color: white;
+}
+
+.plus-minus {
+  font-size: 14px;
+  padding: 0 1rem;
+  flex: 1;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.plus-minus:hover,
+.plus-minus:focus {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+
+.plus-minus:active {
+  color: black;
+  background-color: white !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.plus-minus:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.button-remove {
+  margin-left: 0rem;
+  padding: 0 1rem;
+}
+
+.button-remove .btn:hover,
+.button-remove .btn:focus {
+  background-color: white;
+  box-shadow: none;
+}
+
+.card button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .cart-card {
+    flex-direction: column;
+  }
+
+  .card-img-left {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-body {
+    padding: 0.5rem;
+    min-width: 250px;
+  }
+
+  .button-add-decrease {
+    padding: 0.25rem;
+  }
+
+  .plus-minus {
+    padding: 0 0.5rem;
+  }
+}
