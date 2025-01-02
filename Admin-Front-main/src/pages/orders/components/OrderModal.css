@@ -1,0 +1,14 @@
+.modal-title {
+  margin: 0;
+}
+
+.order-reference {
+  font-size: 0.875rem;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.stripe-reference {
+  font-size: 0.875rem;
+  color: grey;
+}

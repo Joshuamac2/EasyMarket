@@ -1,0 +1,125 @@
+.product-form-container {
+  padding: 40px;
+  width: 75%;
+}
+
+.product-form-header {
+  justify-content: space-between;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.product-form-subheader {
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.form-label {
+  margin-bottom: 20px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.title-field {
+  width: 100%;
+}
+
+.quill > .ql-container {
+  font-size: inherit;
+  border-radius: 0 0 5px 5px;
+}
+
+.quill > .ql-toolbar {
+  border-radius: 5px 5px 0 0;
+  background-color: #16644C;
+}
+
+.custom-quill-editor .ql-toolbar {
+  border-bottom: 1px solid white;
+}
+
+.custom-quill-editor .ql-toolbar button,
+.custom-quill-editor .ql-toolbar .ql-picker {
+  color: white;
+}
+
+.custom-quill-editor .ql-toolbar .ql-stroke {
+  stroke: white;
+}
+
+.custom-quill-editor .ql-toolbar .ql-fill {
+  fill: white;
+}
+
+.image-section {
+  margin-top: 25px;
+}
+
+.image-section-title {
+  margin-bottom: 15px;
+}
+
+.info-icon {
+  color: black;
+}
+
+.image-input-container {
+  margin-bottom: 15px;
+}
+
+.image-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.image-input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.image-input {
+  width: 25%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.remove-image-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-image-button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  min-width: 25%;
+}
+
+.button-icon {
+  flex-shrink: 0;
+}
+
+.button-text {
+  flex-grow: 1;
+}

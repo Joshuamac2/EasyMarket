@@ -1,0 +1,13 @@
+.delete-button-style {
+  border: none;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+.approve-button-style {
+  border: none;
+  background-color: white;
+  color: green;
+  cursor: pointer;
+}

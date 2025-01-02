@@ -1,0 +1,106 @@
+.pricing-form-container {
+  padding: 30px;
+  font-weight: bolder;
+  width: 74%;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.pricing-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-form-title {
+  font-size: 35px;
+  color: black;
+}
+
+.pricing-form-subheader {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.pricing-option {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.pricing-lables {
+  margin-bottom: 15px;
+}
+
+.pricing-option-label {
+  flex: 0 0 calc(15% - 0px);
+  min-width: 100px;
+  margin-top: 20px;
+}
+
+.option-field {
+  width: 100%;
+}
+
+.pricing-option-remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.add-variation-button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  min-width: 25%;
+}
+
+.button-icon {
+  flex-shrink: 0;
+}
+
+.button-text {
+  flex-grow: 0;
+}
+
+.error-message {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .pricing-option {
+    flex-wrap: wrap;
+  }
+
+  .pricing-option-label {
+    flex: 0 0 calc(33.33% - 7px);
+  }
+
+  .pricing-option-remove {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-option-label {
+    flex: 0 0 calc(50% - 5px);
+  }
+}
